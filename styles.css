@@ -1,0 +1,127 @@
+.body {
+    width: 100vw;
+    height: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headerLogo {
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    background: #1F2937;
+    font: 24px;
+    color: white;
+    height: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a:link, a:visited {
+    background-color: blueviolet;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+.section1 {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-left: 2%;
+    max-height: 200px;
+    box-shadow: 0px 30px 25px 0 #1F2937;
+}
+
+.section1image1 {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.section2 {
+    display: flex;
+    width: 100vw;
+}
+
+.section2header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.section2images {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.section2text {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 75px;
+}
+
+.section4 {
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: column;
+    padding-left: 5%;
+    margin: 2%;
+    color: white;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    
+}
+
+.button2 {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
+
+img {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
